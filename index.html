@@ -129,6 +129,21 @@
       margin: 0;
     }
 
+    .toc-section {
+      margin-bottom: 36px;
+    }
+
+    .toc-section-heading {
+      font-family: var(--doc-font-heading);
+      font-size: 0.7em;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      color: var(--doc-muted);
+      border-bottom: 1px solid var(--doc-border);
+      padding-bottom: 6px;
+      margin: 0 0 16px;
+    }
+
     .map-image {
       margin-top: 48px;
       margin-left: -200px;
@@ -162,36 +177,58 @@
       <p class="doc-subtitle">Choose a document to read</p>
     </header>
 
-    <ul class="toc-list">
-      <li>
-        <a class="toc-card" href="setting-guide.html">
-          <p class="toc-card-label">Setting Guide</p>
-          <p class="toc-card-title">Drosvald</p>
-          <p class="toc-card-desc">The core concepts, history, peoples, and politics of the Drosvald setting</p>
-        </a>
-      </li>
-      <li>
-        <a class="toc-card" href="the-wedding-party.html">
-          <p class="toc-card-label">Player Guide</p>
-          <p class="toc-card-title">The Wedding Party</p>
-          <p class="toc-card-desc">Information for the escorts of Kenji Fennori-ko on the road to Bear Hold</p>
-        </a>
-      </li>
-      <li>
-        <a class="toc-card" href="asset-cards.html">
-          <p class="toc-card-label">Character Options</p>
-          <p class="toc-card-title">Asset Cards</p>
-          <p class="toc-card-desc">Details and descriptions of the various asset cards available to players</p>
-        </a>
-      </li>
-      <li>
-        <a class="toc-card" href="moves-reference.html">
-          <p class="toc-card-label">System Guide</p>
-          <p class="toc-card-title">Moves Reference</p>
-          <p class="toc-card-desc">A guide to the various moves available to characters</p>
-        </a>
-      </li>
-    </ul>
+    <div class="toc-section">
+      <p class="toc-section-heading">Setting</p>
+      <ul class="toc-list">
+        <li>
+          <a class="toc-card" href="setting-guide.html">
+            <p class="toc-card-label">Setting Guide</p>
+            <p class="toc-card-title">Drosvald</p>
+            <p class="toc-card-desc">The core concepts, history, peoples, and politics of the Drosvald setting</p>
+          </a>
+        </li>
+        <li>
+          <a class="toc-card" href="magic.html">
+            <p class="toc-card-label">Setting Guide</p>
+            <p class="toc-card-title">Magic</p>
+            <p class="toc-card-desc">A guide to using magic in Drosvald</p>
+          </a>
+        </li>
+      </ul>
+    </div>
+
+    <div class="toc-section">
+      <p class="toc-section-heading">System</p>
+      <ul class="toc-list">
+        <li>
+          <a class="toc-card" href="moves-reference.html">
+            <p class="toc-card-label">System Guide</p>
+            <p class="toc-card-title">Moves Reference</p>
+            <p class="toc-card-desc">A guide to the various moves available to characters</p>
+          </a>
+        </li>
+        <li>
+          <a class="toc-card" href="asset-cards.html">
+            <p class="toc-card-label">Character Options</p>
+            <p class="toc-card-title">Asset Cards</p>
+            <p class="toc-card-desc">Details and descriptions of the various asset cards available to players</p>
+          </a>
+        </li>
+      </ul>
+    </div>
+
+    <div class="toc-section">
+      <p class="toc-section-heading">Adventures</p>
+      <ul class="toc-list">
+        <li>
+          <a class="toc-card" href="the-wedding-party.html">
+            <p class="toc-card-label">Player Guide</p>
+            <p class="toc-card-title">The Wedding Party</p>
+            <p class="toc-card-desc">Information for the escorts of Kenji Fennori-ko on the road to Bear Hold</p>
+          </a>
+        </li>
+      </ul>
+    </div>
 
     <div class="map-image">
       <img src="Drosvald.png" alt="Map of Drosvald">
